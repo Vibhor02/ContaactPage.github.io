@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="Css/stcnt.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet" >
+	<title>Contact Details</title>
+</head>
+<header>
+	<nav>
+	<div class="cntd"><h1>Contact Details</h1></div>
+	<div class="home">
+		<a href="main.html">Home</a>
+	</div>
+</nav>
+<body>
+<section>
+	
+	<form action="datacontact.jsp" class="form" method="post">
+		Name 	: <input type="text" name="txtname" placeholder="Enter Name..." required="" size="25"
+		height="55"><br><br>
+		Email 	: <input type="email" name="txtemail" placeholder="Enter Email..." required=""/><br><br>
+		Mobile 	: <input type="text" pattern="[0-9]{10,10}"  name="txtmobile" placeholder="Enter Mobile No..." required=""/><br><br>
+		Subject : <input type="text" name="txtsub" placeholder="Enter Subject..."/><br><br>
+		Message : <input type="text" name="txtmsg" placeholder="Enter Message..." required=""/><br><br>
+		<input type="submit" class="btnthree" value="SUBMIT"/><br>
+	</form>
+</section>
+</header>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Josefin Sans',sans-serif  ; 
+}  
+header{
+    width: :100%;height: 100vh;
+    background-color: lightblue;  background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{  
+        width: 520px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+        text-transform: uppercase;
+          
+}  
+h1{  width: 85%;
+    text-align: center;  
+    color: green;  
+    padding: 20px; 
+    text-transform: uppercase; 
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 120px;  
+    float: right;
+    color: blue;text-transform: uppercase; 
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+.home{  width: 70px;  
+    height: 20px;  
+    border: none; 
+   border-radius: 100px;
+    float: right;  
+    background-color: grey;  
+}
+.fpas{  
+    float: left;  
+    background-color: grey;    
+}
